@@ -6,6 +6,9 @@ print(" ")
 Nombre= input("Ingresa tu primer nombre y tu primer apellido: ")
 print (f"Tu nombre es {Nombre} verdad?")
 s= int(input("Si quieres corregir tu nombre ingresa 0 ="))
-while (s==0):
-    nombre= input("Digita nuevamente tu nombre: ")
-    s+1
+if ("s==0"):
+    Nombre= input("Puedes volver a ingresar tu primer nombre y tu primer apellido: ")
+else:
+    print(" ")
+edad= int(input("Ahora ingresa tu edad: "))
+if (edad>=18):
