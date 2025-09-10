@@ -11,4 +11,9 @@ if ("s==0"):
 else:
     print(" ")
 edad= int(input("Ahora ingresa tu edad: "))
-if (edad>=18):
+if (edad<20):
+    if(edad>=18):
+        print(f"{Nombre}, ya que aun eres joven, pero no lo suficiente, el consejo que te voy a dar es:")
+        print("Empieza a ahorrar e invertir lo antes posible, aunque sea poco, el tiempo es tu mayor aliado. Gracias al interés compuesto, pequeñas cantidades de dinero ahorradas o invertidas regularmente pueden convertirse en sumas importantes con el tiempo.")
+    else:
+        print("Aun eres joven, disfruta tu vida hasta que cumplas 18 o tengas responsabilidades")
