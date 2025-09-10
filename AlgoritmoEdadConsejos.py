@@ -20,3 +20,5 @@ if (edad<20):
 elif (edad>=20):
     print("Ya que eres un adulto, te voy a dar un consejo de amor, este es:")
     print("Es importante construir relaciones basadas en respeto, comunicación y crecimiento mutuo. Pero nunca olvides cuidar tu individualidad")
+print(" ")
+print(f"Espero te haya sirva este consejo {Nombre}")
