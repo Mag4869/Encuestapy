@@ -5,7 +5,7 @@ print("En este codigo, vas a ingresar tu nombre y edad,con respecto a eso te dar
 print(" ")
 Nombre= input("Ingresa tu primer nombre y tu primer apellido: ")
 print (f"Tu nombre es {Nombre} verdad?")
-s= int(input("Si quieres corregir tu nombre ingresa 0 ="))
+s= int(input("Si quieres corregir tu nombre ingresa 0 = "))
 if (s==0):
     Nombre= input("Puedes volver a ingresar tu primer nombre y tu primer apellido: ")
 else:
@@ -21,4 +21,4 @@ elif (edad>=20):
     print("Ya que eres un adulto, te voy a dar un consejo de amor, este es:")
     print("Es importante construir relaciones basadas en respeto, comunicación y crecimiento mutuo. Pero nunca olvides cuidar tu individualidad")
 print(" ")
-print(f"Espero te haya sirva este consejo {Nombre}")
+print(f"Espero te sirva este consejo {Nombre}")
