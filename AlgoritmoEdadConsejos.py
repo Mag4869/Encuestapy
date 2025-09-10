@@ -10,10 +10,13 @@ if (s==0):
     Nombre= input("Puedes volver a ingresar tu primer nombre y tu primer apellido: ")
 else:
     print(" ")
-edad= int(input("Ahora ingresa tu edad: "))
+edad= int(input(f"Bueno {Nombre} ahora ingresa tu edad: "))
 if (edad<20):
     if(edad>=18):
         print(f"{Nombre}, ya que aun eres joven, pero no lo suficiente, el consejo que te voy a dar es:")
         print("Empieza a ahorrar e invertir lo antes posible, aunque sea poco, el tiempo es tu mayor aliado. Gracias al interés compuesto, pequeñas cantidades de dinero ahorradas o invertidas regularmente pueden convertirse en sumas importantes con el tiempo.")
     else:
         print("Aun eres joven, disfruta tu vida hasta que cumplas 18 o tengas responsabilidades")
+elif (edad>=20):
+    print("Ya que eres un adulto, te voy a dar un consejo de amor, este es:")
+    print("Es importante construir relaciones basadas en respeto, comunicación y crecimiento mutuo. Pero nunca olvides cuidar tu individualidad")
