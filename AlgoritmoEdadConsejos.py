@@ -6,7 +6,7 @@ print(" ")
 Nombre= input("Ingresa tu primer nombre y tu primer apellido: ")
 print (f"Tu nombre es {Nombre} verdad?")
 s= int(input("Si quieres corregir tu nombre ingresa 0 ="))
-if ("s==0"):
+if (s==0):
     Nombre= input("Puedes volver a ingresar tu primer nombre y tu primer apellido: ")
 else:
     print(" ")
